@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 
 function connect() {
-    mongoose.connect(process.env.MONGODB_URI)
+    mongoose.connect("mongodb+srv://deepanshumodi611:WvHEEGPKjmUgkurk@cluster0.hfp3pes.mongodb.net/NewAI?retryWrites=true&w=majority&appName=Cluster0")
         .then(() => {
             console.log("Connected to MongoDB");
         })
